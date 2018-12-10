@@ -1,0 +1,90 @@
+@charset "UTF-8";
+body {
+	font-family: Roboto;
+  background: -webkit-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* W3C */
+}
+
+h1 {
+	background: #2980b9;
+	color: white;
+	margin: 0;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	text-shadow: 1px 1px;
+	text-align: center;
+	word-spacing: 10px;
+}
+#container {
+	width: 1000px;
+	margin: 100px auto;
+	background: -webkit-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* Chrome 10+, Saf5.1+ */
+    background:    -moz-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* FF3.6+ */
+    background:     -ms-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* IE10 */
+    background:      -o-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* Opera 11.10+ */
+    background:         linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%); /* W3C */
+	box-shadow: 0 0 3px rgba(0,0,0, 0.1);
+	height: 450px;
+	border: 2px solid lightblue;
+}
+#AdminButton {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 9px #999;
+  margin-top: -3px;
+}
+#StudButton {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 9px #999;
+  margin-top: -3px;
+}
+#Admin1 {
+	text-align: center;
+	line-height: 1.8; 
+	word-spacing: 4px;
+	text-decoration-color:blue;
+	text-transform: uppercase;
+	font-size: 18px;
+	color: white;
+	font: italic bold 1.5em "Fira Sans", serif;
+}
+#Stud1 {
+	text-align: center;
+	line-height: 1.8;
+	word-spacing: 4px;
+	color: white;
+	text-transform: uppercase;
+	font-size: 18px;
+	font: italic bold 1.5em "Fira Sans", serif;
+}
+#AdminButton:hover {background-color: #3e8e41}
+
+#AdminButton:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#StudButton:hover {background-color: #3e8e41}
+#StudButton:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
